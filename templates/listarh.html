@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title></title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="{{ url_for('static', filename= 'css/listarcss.css' )}}" rel="stylesheet"> 
+	</head>
+	<body>
+		
+		<div class="contenedor-1">
+			<div class="titulo-1">ARCHIVOS</div>
+			<div id="dContenidoUnidad"></div>
+			<div class="divunidades">UNIDADES <br> 
+				<select id="selectunidades"></select>
+				<button id="retroceder">⇚ Retroceder</button>
+			</div>
+		</div>
+		
+		<div class="contenedor-2">
+			<div class="titulo-2">ARCHIVOS PARA COPIAR</div>
+			<div id="dContenidoAcopiar"></div> 
+			<div class="divusb">USB <br> 
+				<select id="selectusb"></select>
+				<button id="copiarausb">COPIAR ➤</button>
+			</div>
+		</div>
+		
+		<div id="divAlerta">
+			<img id="imagen" src="{{ url_for('static', filename= 'images/trans.png' )}}" alt="_">
+		</div> 
+		
+		<script src="{{ url_for('static', filename= 'js/jquery-2.1.1.js' )}}"></script>
+		<script src="{{ url_for('static', filename= 'js/listarjs.js' )}}"></script>
+	</body>
+</html>

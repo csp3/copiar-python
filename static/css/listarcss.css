@@ -1,0 +1,146 @@
+@font-face {
+    font-family: bell;
+    src: url('NotoSans.ttf');
+}
+
+body {
+	margin: 0;
+	padding: 0; 
+}
+
+* {
+	font-family: bell; 
+	font-size: 12px; 
+}
+
+.contenedor-1,
+.contenedor-2 {
+	border: 2px solid #1b366a;
+	border-radius: 3px; 
+	display: inline-block;
+	margin: 3px; 
+	text-align: center; 
+}
+
+.titulo-1,
+.titulo-2 {
+	color: #fff;
+	padding: 2px 0; 
+}
+
+.titulo-1 {
+	background-color: #00f;
+}
+
+.titulo-2 {
+	background-color: #8b4513;
+}
+
+#dContenidoUnidad,
+#dContenidoAcopiar {
+	width:  550px;
+	height: 530px;
+	overflow-x: auto;
+	overflow-y: scroll;
+}
+ 
+#selectunidades, 
+#selectusb {
+	font-family: 'bell';
+	width: 100px; 
+}
+
+.divunidades {
+	color: blue;
+	font-weight: bold;
+}
+
+#divusb {
+	color: #8b4513;
+	font-weight: bold;
+}
+
+option {
+	font-weight: bold; 
+	font-size: 14px; 
+}
+ 
+#dContenidoUnidad div {
+	width: 490px;
+	text-align: left;
+	padding: 3px 0;
+	border: 1px solid #ff8d8d; 
+}
+
+#dContenidoUnidad button:hover {
+	cursor: pointer;
+}
+
+.pinta {
+	background-color: #a6ff4c; 
+}
+
+#dContenidoUnidad  div,
+#dContenidoUnidad  button {
+	display: inline-block; 
+	margin-top: 3px; 
+}
+
+.divunidades,
+.divusb {
+	border-top: 1px solid rgb(32, 48, 81);
+}
+
+.divunidades button,
+.divusb button {
+	vertical-align: top; 
+}
+
+
+#dContenidoAcopiar  div,
+#dContenidoAcopiar  button {
+	display: inline-block; 
+	margin-top: 3px; 
+}
+
+#dContenidoAcopiar div {
+	border: 1px solid red;
+	margin: 3px 2px;
+	padding: 2px 0;
+	width: 485px;
+	text-align: left;
+}
+
+#dContenidoAcopiar button {
+	width: 30px;
+}
+
+#retroceder,
+#copiarausb {
+	margin-left: 5px;
+	cursor: pointer;
+	border-radius: 3px;
+	border: 1px solid #6152b8; 
+	padding: 5px;
+	font-size: 13px;
+}
+
+#retroceder:active,
+#copiarausb:active {
+	background-color: #f1d194;
+}
+
+#copiarausb {
+	border: 1px solid red; 
+}
+
+#divAlerta {
+	position: absolute; 	
+	top   : 0px;
+	left  : 0px;
+	text-align: center; 
+}
+
+#imagen {
+	margin-top: 50%;
+}
